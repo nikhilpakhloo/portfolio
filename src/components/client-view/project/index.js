@@ -81,9 +81,7 @@ export default function ClientProjectView({ data }) {
                       <button onClick={()=>router.push(item.website)} className="p-2 text-white-500 font-semibold text-[14px] tracking-widest bg-green-main transition-all outline-none">
                         Website
                       </button>
-                      <button onClick={()=>router.push(item.github)} className="p-2 text-white-500 font-semibold text-[14px] tracking-widest bg-green-main transition-all outline-none">
-                        Github
-                      </button>
+                    
                     </div>
                   </div>
                 </li>
